@@ -1,10 +1,9 @@
-# Versiones con las que se entrenó y serializó predictor_v1_Grupo_2.joblib
-# (el .joblib debe cargarse con la misma versión de scikit-learn)
-scikit-learn==1.9.1
-pandas==3.0.6
-numpy==2.5.3
+# Predictor (predictor_v1_Grupo_5.py): funciona con cualquiera de estas versiones
+scikit-learn>=1.2,<1.10
+numpy
+pandas
 joblib
-# sólo para los notebooks
+# Notebooks (se ejecutaron con Python 3.14, scikit-learn 1.9.1, pandas 3.0.6, numpy 2.5.3)
 matplotlib
 seaborn
 scipy
